@@ -10,5 +10,6 @@ services:
   express:
     image: samip7/express-app:latest
     build: .
-    ports: 8080:8080
+    ports:
+      - 8080:8080
     container_name: express-app
